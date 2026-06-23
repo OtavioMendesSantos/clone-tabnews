@@ -2,10 +2,14 @@
   "name": "clone-tabnews",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "^3.8.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:fix": "prettier --write .",
+    "lint:check": "prettier --check ."
   },
   "author": "",
   "license": "MIT",
